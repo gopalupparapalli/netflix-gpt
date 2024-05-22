@@ -3,6 +3,18 @@
 -Configuration Tailwind
 -Header
 -Login form
+-SignUp form
+-Form Validation
+-UseRef Hook
+-FireBase Setup
+-Deploying Our App
+-Impliment Sign User Api
+-Created Redux Store with userSlices
+-Implimented SignOut
+-Updated Profile
+-SignUp:Picture Update and Display Name
+-Protected Routes
+
 
 
 
