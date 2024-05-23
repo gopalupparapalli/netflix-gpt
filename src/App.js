@@ -8,7 +8,7 @@ import StoreStateViewer from './Components/StoreStatus';
 function App() {
   return (
     <Provider store={appStore}>
-    
+  
    <Body/>
    </Provider>
   );

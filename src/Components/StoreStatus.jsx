@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 
 const StoreStateViewer = () => {
-  const user = useSelector(state => state.user);
+  const user = useSelector(state => state.movies);
 
   return (
     <div>

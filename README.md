@@ -15,6 +15,9 @@
 -SignUp:Picture Update and Display Name
 -Protected Routes
 
+-Register in TMDB 
+-get api for Now Playing Movies 
+
 
 
 

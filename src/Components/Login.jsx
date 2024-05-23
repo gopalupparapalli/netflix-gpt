@@ -11,6 +11,7 @@ import { auth } from "./utils/firebase";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addUser } from "./utils/userSlice";
+import { Avatar } from "./utils/constants";
 
 const Login = () => {
   const [isSignIn, setisSignIn] = useState(true);
@@ -45,7 +46,7 @@ const Login = () => {
             // Signed up
             const user = userCredential.user;
             updateProfile(user, {
-              displayName: name.current.value, photoURL: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+              displayName: name.current.value, photoURL: Avatar
             }).then(() => {
               // Profile updated!
               // ...
